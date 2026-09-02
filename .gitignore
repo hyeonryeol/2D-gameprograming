@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Course material - distributed through the course Git server, and the file
+# names contain Korean characters that LEC00 p.4 tells us to keep out of paths.
+*.pdf
+
+# Windows Explorer artifacts
+Thumbs.db
+desktop.ini
+
+# Other editors
+.idea/

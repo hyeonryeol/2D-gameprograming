@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run game",
+            "type": "shell",
+            "command": "python main.py",
+            "options": { "cwd": "${workspaceFolder}" },
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "Smoke test (no keyboard needed)",
+            "type": "shell",
+            "command": "python tools/smoke_test.py",
+            "options": { "cwd": "${workspaceFolder}" },
+            "group": { "kind": "test", "isDefault": true },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+# Keep line endings identical on every machine; matches "files.eol": "\n"
+# in .vscode/settings.json so the editor and Git never disagree.
+* text=auto eol=lf
+
+# Generated binary assets
+*.png binary
+*.pdf binary
